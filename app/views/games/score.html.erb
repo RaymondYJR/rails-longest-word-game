@@ -1,0 +1,6 @@
+<h1>Game score</h1>
+<p><%= "Your score is" %></p>
+<% @score.each do |e| %>
+  <p><%= e %></p>
+<% end %>
+<%= link_to "play again", games_new_path %>
